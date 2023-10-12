@@ -1,10 +1,12 @@
 import React from 'react';
+import logo from './images/Logo.svg';
+
 
 function Header(){
     return (
-        <header>
-        <h2>Header Page</h2>
-        </header>
+       
+        <img src={logo} alt="Logo"/>
+        
     );
 }
 export default Header;

@@ -7,14 +7,16 @@ import Nav from './components/Nav';
 function App() {
   return (
     <>
-    
-    <Header />
-    <Nav />
+    <div className='flex-container'>
+      <Header />
+      <Nav />
+    </div>
+   
     <Main />
     <Footer/>
     
     </>
-
+    
   );
 }
 
