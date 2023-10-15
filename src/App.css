@@ -29,6 +29,17 @@
 .App-link {
   color: #61dafb;
 }
+.footer-menu{
+  list-style-type: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.footer-menu a {
+  text-decoration: none;
+  color: black;
+  font-weight:300;
+
+}
+
 
 .Navigation{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -41,40 +52,67 @@
 .Navigation a {
   text-decoration: none;
   color: black;
-  font-weight: bold;
+  font-weight: 600;
 
 }
-
+.footer-container{
+  display:flex;
+  flex-direction: row;
+  gap:20vh;
+  margin:auto;
+  width: 1100px;
+}
 .flex-container{
   display:flex;
   flex-direction: row;
   gap:10vh;
   margin:auto;
   width: 1000px;
-    
 }
-.main-container{
+.container-secA{
   background-color: #495E57;
+  
+.main-sectionA{
+  display: flex;
+  flex-direction: row;
 }
+}
+.main-sectionD{
+  display: flex;
+  flex-direction: row;
+  width: 1000px;
+  margin: auto;
+  padding: 5px;
+}
+
 .main-sectionA{
   width: 1000px;
   margin: auto;
 }
 .main-title{
   color: #F4CE14;
+  font-size: 60px;
+  font-weight: 700;
 }
 .main-sub-title{
   color: #FFFFFF;
+  font-size: 30px;
+  margin-top: -1.5rem;
 }
 .main-text{
-  color: rgb(210, 199, 199);
+  color: #FFFFFF;
+  font-size: 22px;
+  width: 400px;
 }
 .btn-reserve{
   padding: 8px 20px;
   background-color: #F4CE14;
-  font-weight: bold;
-  border-radius: 5px;
+  font-weight: 700;
+  border-radius: 15px;
   border: none;
+  margin: 10px;
+  font-size: 18px;
+  width: 12rem;
   }
 
 @keyframes App-logo-spin {
