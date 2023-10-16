@@ -30,10 +30,9 @@ function Footer() {
                 <ul className="footer-menu">
                     <li><a href="#insta">Instagram</a></li>
                     <li><a href="#linkdin">LinkedIn</a></li>
-                    <li><a href="#pinterest">Pinterest</a></li>
+                    <li><a href="#pinterest">Pinterests</a></li>
                 </ul>
             </section>
-
         </footer>
     )
 
