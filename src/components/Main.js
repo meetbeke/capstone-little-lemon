@@ -70,7 +70,7 @@ function Main(){
             <section className='container-secC'>
                 <div className='main-sectionC'>
                     <h1 className='testimonial'>Testimonial</h1>
-                   
+
                     <div className='frame-c'>
                     <div className='frame'>
                         <div className='stars'> <img src={stars} alt="starts" width={100} /> </div> 
@@ -122,9 +122,7 @@ function Main(){
                         entrees, and desserts. Some of the popular dishes include the hummus
                         the grilled octopus, and the lemon chicken. The restaurant also has a
                         good selection of wines and cocktails. Little Lemon is a great place to go
-                        for a casual meal or a special occasion. The restaurant is also a good choice
-                        for people with dietary restrictions, as it has a number of vegetarian and
-                        gluten-free options.</p>
+                        for a casual meal or a special occasion. </p>
                 </div>
                 <div className='group-B'>
                     <img className='cafe' src={restaurant} height={300} width={300} alt='restaurant' />
